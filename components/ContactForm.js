@@ -2,6 +2,10 @@ import styles from "./styles/ContactForm.module.css";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
+const USER_ID = process.env.NEXT_PUBLIC_EMAILJS_USERID;
+const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATEID;
+const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICEID;
+
 export default function ContactForm() {
   const form = useRef();
 
