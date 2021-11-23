@@ -1,0 +1,75 @@
+.container {
+  background: rgb(16, 70, 110);
+  background: linear-gradient(
+    120deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(16, 70, 110, 1) 100%
+  );
+  margin: 0;
+  padding: 1rem 12rem;
+}
+
+.container header {
+  padding: 2rem 0 1rem 0;
+}
+
+.container header h1 {
+  margin: 0;
+  color: rgba(10, 51, 81, 1);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.container section {
+  padding: 1rem 0;
+}
+
+.container section img {
+  border-radius: 50%;
+  float: left;
+  padding-right: 1rem;
+  width: 12rem;
+}
+
+.container section p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+  text-indent: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.container section hr {
+  width: 55%;
+  opacity: 0.5;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .container header {
+    padding: 1rem 0;
+  }
+
+  .container header h1 {
+    font-size: 2.5rem;
+  }
+
+  .container section {
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+
+  .container section img {
+    padding-right: 1rem;
+    width: 8rem;
+  }
+
+  .container section p {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,31 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 5rem 10rem;
+  background: rgb(16, 70, 110);
+  background: linear-gradient(
+    120deg,
+    rgba(16, 70, 110, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}
