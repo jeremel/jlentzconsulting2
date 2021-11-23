@@ -23,7 +23,7 @@ export default function services() {
           src={CoachingImg}
           alt="Small Business Coaching"
           height={CoachingImg.height}
-          widht={CoachingImg.width}
+          width={CoachingImg.width}
           objectFit="contain"
           placeholder="blur"
         />

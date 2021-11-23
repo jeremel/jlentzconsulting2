@@ -1,22 +1,23 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./styles/Nav.module.css";
 import logo from "../public/JLentzConsulting-Vertical1.png";
 
 export default function Nav() {
   return (
     <nav className={styles.container}>
-      <a href="/">
+      <Link href="/">
         <Image className={styles.img} src={logo} alt="JLentz Consulting" />
-      </a>
+      </Link>
       <ul className={styles.ul}>
         <li>
-          <a href="/#services">Services</a>
+          <Link href="/#services">Services</Link>
         </li>
         <li>
-          <a href="/#about">About</a>
+          <Link href="/#about">About</Link>
         </li>
         <li>
-          <a href="/#contact">Contact</a>
+          <Link href="/#contact">Contact</Link>
         </li>
       </ul>
     </nav>

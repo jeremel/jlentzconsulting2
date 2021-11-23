@@ -26,11 +26,14 @@
   padding: 1rem 0;
 }
 
-.container section img {
-  border-radius: 50%;
+.aboutImage {
   float: left;
   padding-right: 1rem;
   width: 12rem;
+}
+
+.container section img {
+  border-radius: 50%;
 }
 
 .container section p {

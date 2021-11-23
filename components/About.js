@@ -1,4 +1,6 @@
+import Image from "next/image";
 import styles from "./styles/About.module.css";
+import aboutImage from "../public/JeremeLentzHeadshot1.jpg";
 
 export default function about() {
   return (
@@ -7,10 +9,9 @@ export default function about() {
         <h1>About JLentz Consulting</h1>
       </header>
       <section>
-        <img
-          src="./JeremeLentzHeadshot1.jpg"
-          alt="Jereme Lentz of JLentz Consulting"
-        />
+        <div className={styles.aboutImage}>
+          <Image src={aboutImage} alt="Jereme Lentz of JLentz Consulting" />
+        </div>
         <p>
           JLentz Consulting is a small business consulting agency formed in 2021
           by Jereme Lentz. Jereme decided to start his own consulting firm so
