@@ -6,12 +6,14 @@ export default function Footer() {
     <footer className={styles.container}>
       <div className={styles.company}>
         <h1>
-          <Link href="/">JLentz Consulting</Link>
+          <Link href="/">
+            <a>JLentz Consulting</a>
+          </Link>
         </h1>
         <p>Egg Harbor City, NJ</p>
         <p>
           <Link href="mailto:jlentzconsulting@gmail.com">
-            jlentzconsulting@gmail.com
+            <a>jlentzconsulting@gmail.com</a>
           </Link>
         </p>
         <p>&copy; 2021 JLentz Consulting</p>
@@ -19,26 +21,40 @@ export default function Footer() {
       <div className={styles.sitemap}>
         <div className={styles.services}>
           <h2>
-            <Link href="/#services">Services:</Link>
+            <Link href="/#services">
+              <a>Services:</a>
+            </Link>
           </h2>
           <h3>
-            <Link href="/#coaching">Coaching</Link>
+            <Link href="/#coaching">
+              <a>Coaching</a>
+            </Link>
           </h3>
           <h3>
-            <Link href="/#finances">Finances</Link>
+            <Link href="/#finances">
+              <a>Finances</a>
+            </Link>
           </h3>
           <h3>
-            <Link href="/#operations">Operations</Link>
+            <Link href="/#operations">
+              <a>Operations</a>
+            </Link>
           </h3>
           <h3>
-            <Link href="/#projectmanagement">Project Management</Link>
+            <Link href="/#projectmanagement">
+              <a>Project Management</a>
+            </Link>
           </h3>
         </div>
         <h2>
-          <Link href="/#about">About</Link>
+          <Link href="/#about">
+            <a>About</a>
+          </Link>
         </h2>
         <h2>
-          <Link href="/#contact">Contact</Link>
+          <Link href="/#contact">
+            <a>Contact</a>
+          </Link>
         </h2>
       </div>
     </footer>

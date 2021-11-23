@@ -11,13 +11,19 @@ export default function Nav() {
       </Link>
       <ul className={styles.ul}>
         <li>
-          <Link href="/#services">Services</Link>
+          <Link href="/#services">
+            <a>Services</a>
+          </Link>
         </li>
         <li>
-          <Link href="/#about">About</Link>
+          <Link href="/#about">
+            <a>About</a>
+          </Link>
         </li>
         <li>
-          <Link href="/#contact">Contact</Link>
+          <Link href="/#contact">
+            <a>Contact</a>
+          </Link>
         </li>
       </ul>
     </nav>
