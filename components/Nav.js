@@ -6,7 +6,7 @@ import logo from "../public/JLentzConsulting-Vertical1.png";
 export default function Nav() {
   return (
     <nav className={styles.container}>
-      <Link href="/">
+      <Link href="/" passHref>
         <Image className={styles.img} src={logo} alt="JLentz Consulting" />
       </Link>
       <ul className={styles.ul}>
